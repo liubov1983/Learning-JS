@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    hideTabContent(1); //Показ только 1 таба
+    hideTabContent(1); //Показ только первого таба
 
     function showTabContent(b) { //Показ таба
         if (tabContent[b].classList.contains('hide')) {
